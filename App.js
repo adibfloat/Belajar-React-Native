@@ -1,12 +1,20 @@
-import React from "react";
-import { View, Text } from "react-native";
+import React, {Component} from 'react';
+import {ScrollView, View} from 'react-native';
+
+import SampleComponent from './assets/SampleComponent';
+import StylingReactNativeComponent from './assets/StylingReactNativeComponent';
+import MateriFlexBox from './assets/MateriFlexBox';
 
 const App = () => {
-return (
-  <View> 
-    <Text>Hello World Ke Jalan-jalan</Text>  
-  </View>
-)
-}
+  return (
+    <View>
+      <ScrollView>
+        <SampleComponent />
+        <StylingReactNativeComponent />
+        <MateriFlexBox />
+      </ScrollView>
+    </View>
+  );
+};
 
-export default App
+export default App;
