@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {View, Text, Image, TextInput, StyleSheet} from 'react-native';
-import ayam from '../gambar/ayam.jpg';
+import ayam from '../../assets/image/ayam.jpg';
 
-const StylingReactNativeComponent = () => {
+const StylingComponent = () => {
   return (
     <View>
       <Text style={styles.text}> Ayam Bakar </Text>
@@ -90,4 +90,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default StylingReactNativeComponent;
+export default StylingComponent;
